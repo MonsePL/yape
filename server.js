@@ -17,7 +17,12 @@ const format = morganjson({
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.static('public'));
+app.use("/static", express.static(__dirname + '/node_modules'));
 app.use(morgan(format));
+
+app.get("/",function(req,res){
+  res.sendFile(__dirname+"/index.html")
+})
 
 let router = express.Router();
 
