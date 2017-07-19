@@ -6,8 +6,8 @@ gulp.task('sass', function(){
   return gulp.src('scss/*.scss')
     .pipe(sass({outputStyle: "compressed"}).on("error", sass.logError))
     .pipe(minifyCSS())
-    .pipe(gulp.dest('public/css'))
-    var filesExist = require("files-exists");
+    .pipe(gulp.dest('assets/css'))
+
 });
 
 

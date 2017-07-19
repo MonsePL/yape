@@ -1,5 +1,41 @@
-$colorverde: #ffffff;
+$coloramarillo: #fbd43b;
+$colorgrisf: #212121;
+$colorgrisc: #8f8f8f;
+$colortur: #00c3a3
 
-body{
-  background-color:$colorverde;
-};
+
+
+
+.contenido-carrusel{
+    width: 40%;
+    margin-left: 30%;
+}
+
+.cbotones{
+  background-color:$coloramarillo;
+  align:center;
+}
+
+.colorgf{
+  color: $colorgrisf;
+}
+
+.colorgc{
+  color: $colorgrisc;
+}
+
+.colortc{
+  color: $colortur;
+}
+
+.tfuente{
+  font-family: 'Nunito', sans-serif;
+}
+
+.tamañofg{
+  font-size: 24pt;
+}
+
+.tamañofc{
+  font-size: 13pt;
+}
