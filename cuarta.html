@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="node_modules/materialize-css/dist/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+
+  <title>Registrate</title>
+</head>
+
+<body>
+  <br>
+  <section class="row center">
+    <img src="public/img/icons/lockone.png" alt="">
+  </section>
+
+  <section class="row center">
+    <p class="colorgf tfuente tamañofg"><strong>Crea tu usuario Yape</p>
+    <p class="colorgc tfuente tamañofc">Ingresa un nombre, email y clave de usuario</p>
+  </section>
+
+
+  <div class="row center container">
+   <form class="col s12">
+     <div class="row">
+       <div class="input-field ">
+         <input placeholder="Nombre" id="nombre" type="text" class="validate">
+         <label for=""><img src="public/img/icons/user.png"></label>
+       </div>
+     </div>
+
+
+
+     <div class="row center">
+       <div class="col s12">
+         <div class="input-field">
+           <input id="email" type="email" class="validate">
+           <label for="email" data-error="wrong" data-success="right"><i ><img src="public/img/icons/message-gray.png"></i>.correo@ejemplo.com.</label>
+         </div>
+       </div>
+     </div>
+
+
+     <div class="row center">
+       <div class="input-field col s12">
+         <input id="password" type="password" class="validate"><br>
+          <label for="password"><i ><img src="public/img/icons/lock.png"></i> .Ingresa clave de 6 dígitos.</label>
+       </div>
+     </div>
+
+     <section class="row center">
+       <p class="colorgc tfuente tamañofc center">Cuida esta clave como oro, es tu acceso a <br> Yape.</p>
+     </section>
+
+
+   </form>
+ </div>
+
+ <div class="row center">
+   <a href="" id="download-button" class="btn-large waves-effect waves-light  lighten-1 cbotones">Crear cuenta</a>
+ </div>
+
+</body>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</html>

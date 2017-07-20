@@ -1,10 +1,18 @@
 $coloramarillo: #fbd43b;
 $colorgrisf: #212121;
 $colorgrisc: #8f8f8f;
-$colortur: #00c3a3
+$colortur: #00c3a3;
+$colormoradof:#38052a;
+$colormoradoc:#451e36;
+$colorblanco: #ffffff;
 
+.cuerpo{
+  background-color: $coloramarillo;
+}
 
-
+.fondo{
+  background-color: $colormoradoc;
+}
 
 .contenido-carrusel{
     width: 40%;
@@ -20,12 +28,19 @@ $colortur: #00c3a3
   color: $colorgrisf;
 }
 
+.coloruf{
+  color: $colorblanco;
+}
 .colorgc{
   color: $colorgrisc;
 }
 
 .colortc{
   color: $colortur;
+}
+
+.colormorf{
+  color: $colormoradof;
 }
 
 .tfuente{
